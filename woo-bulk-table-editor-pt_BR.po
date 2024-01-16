@@ -1,0 +1,762 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bulk Table Editor for WooCommerce\n"
+"POT-Creation-Date: 2023-02-05 15:50+0100\n"
+"PO-Revision-Date: 2024-01-16 00:43+0000\n"
+"Last-Translator: Jeferson\n"
+"Language-Team: Português do Brasil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo-bulk-table-editor.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: pt-BR\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2"
+
+#: includes/class-wbte-extended.php:79 includes/class-wbte-templates.php:786
+msgid "Description ID SKU"
+msgstr "Descrição ID SKU"
+
+#: includes/class-wbte-extended.php:79 includes/class-wbte-templates.php:786
+msgid "Show ID & SKU"
+msgstr "Mostrar ID e SKU"
+
+#: includes/class-wbte-extended.php:85 includes/class-wbte-functions.php:1275 
+#: includes/class-wbte-templates.php:791
+msgid "Name"
+msgstr "Nome"
+
+#: includes/class-wbte-extended.php:89 includes/class-wbte-functions.php:1276 
+#: includes/class-wbte-templates.php:394 includes/class-wbte-templates.php:810
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/class-wbte-extended.php:90 includes/class-wbte-functions.php:1286
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/class-wbte-extended.php:91
+msgid "Backorders"
+msgstr "Pedidos pendentes"
+
+#: includes/class-wbte-extended.php:92
+msgid "In stock?"
+msgstr "Em estoque?"
+
+#: includes/class-wbte-extended.php:93
+msgid "Visibility"
+msgstr "Visibilidade"
+
+#: includes/class-wbte-extended.php:94
+msgid "Weight"
+msgstr "Peso"
+
+#: includes/class-wbte-extended.php:95
+msgid "Length"
+msgstr "Comprimento"
+
+#: includes/class-wbte-extended.php:96
+msgid "Width"
+msgstr "Largura"
+
+#: includes/class-wbte-extended.php:97
+msgid "Height"
+msgstr "Altura"
+
+#: includes/class-wbte-extended.php:115 includes/class-wbte-templates.php:426
+msgid "Bulk Editor"
+msgstr "Editor em massa"
+
+#: includes/class-wbte-extended.php:115 includes/class-wbte-templates.php:427
+msgid ""
+"Fill in values to apply to all visible products. Double click name for "
+"description, ID and SKU."
+msgstr ""
+"Preencha os valores para aplicar a todos os produtos visíveis. Clique duas "
+"vezes no nome para obter descrição, ID e SKU."
+
+#: includes/class-wbte-extended.php:174 includes/class-wbte-templates.php:285 
+#: includes/class-wbte-templates.php:487
+msgid "Save"
+msgstr "Salvar"
+
+#: includes/class-wbte-extended.php:257 includes/class-wbte-templates.php:586
+msgid "ID:"
+msgstr "ID:"
+
+#: includes/class-wbte-extended.php:258 includes/class-wbte-templates.php:587
+msgid "SKU:"
+msgstr "SKU:"
+
+#: includes/class-wbte-functions.php:427
+msgid "All products"
+msgstr "Todos os produtos"
+
+#: includes/class-wbte-functions.php:454
+msgid "Select Category ( All )"
+msgstr "Selecione a categoria (todas)"
+
+#: includes/class-wbte-functions.php:510
+msgid "Filter Sales ( None )"
+msgstr "Filtrar vendas (nenhuma)"
+
+#: includes/class-wbte-functions.php:511
+msgid "Filter ( On Sale )"
+msgstr "Filtrar (A venda)"
+
+#: includes/class-wbte-functions.php:512
+msgid "Filter ( Not On Sale )"
+msgstr "Filtrar (Não está à venda)"
+
+#: includes/class-wbte-functions.php:526
+msgid "Filter Tags ( None )"
+msgstr "Filtrar tags (nenhuma)"
+
+#. translators: %s: page of pages
+#: includes/class-wbte-functions.php:866
+#, php-format
+msgid " page %1$s of %2$s "
+msgstr "página %1$s de %2$s"
+
+#: includes/class-wbte-functions.php:968 
+#: includes/class-wbte-functions.php:1222 
+#: includes/class-wbte-functions.php:1249
+msgid "Select"
+msgstr "Selecionar"
+
+#: includes/class-wbte-functions.php:969 includes/class-wbte-functions.php:1278
+msgid "Featured"
+msgstr "Destacado"
+
+#: includes/class-wbte-functions.php:970
+msgid "Increase"
+msgstr "Aumentar"
+
+#: includes/class-wbte-functions.php:971
+msgid "Increase by %"
+msgstr "Aumentar por %"
+
+#: includes/class-wbte-functions.php:972
+msgid "Increase by fixed amount"
+msgstr "Aumento por valor fixo"
+
+#: includes/class-wbte-functions.php:973
+msgid "Decrease"
+msgstr "Diminuir"
+
+#: includes/class-wbte-functions.php:974
+msgid "Decrease by %"
+msgstr "Diminuir por %"
+
+#: includes/class-wbte-functions.php:975
+msgid "Decrease by fixed amount"
+msgstr "Diminuir por valor fixo"
+
+#: includes/class-wbte-functions.php:976
+msgid "Set fixed"
+msgstr "Definir fixo"
+
+#: includes/class-wbte-functions.php:977
+msgid "Set fixed amount"
+msgstr "Definir valor fixo"
+
+#: includes/class-wbte-functions.php:978
+msgid "Round upwards"
+msgstr "Arredondar para cima"
+
+#: includes/class-wbte-functions.php:979
+msgid "Round downwards"
+msgstr "Arredondar para baixo"
+
+#: includes/class-wbte-functions.php:980
+msgid "Round two decimals"
+msgstr "Arredondar duas casas decimais"
+
+#: includes/class-wbte-functions.php:981
+msgid "Yes"
+msgstr "Sim"
+
+#: includes/class-wbte-functions.php:982
+msgid "No"
+msgstr "Não"
+
+#: includes/class-wbte-functions.php:983
+msgid "Allow"
+msgstr "Permitir"
+
+#: includes/class-wbte-functions.php:984
+msgid "Do not allow"
+msgstr "Não permitir"
+
+#: includes/class-wbte-functions.php:985
+msgid "Allow, but notify customer"
+msgstr "Permitir, mas notificar o cliente"
+
+#: includes/class-wbte-functions.php:986
+msgid "Clear"
+msgstr "Limpar"
+
+#: includes/class-wbte-functions.php:987
+msgid "Set SKU"
+msgstr "Definir SKU"
+
+#: includes/class-wbte-functions.php:988
+msgid "Set tags (use comma to split)"
+msgstr "Definir tags (use vírgula para dividir)"
+
+#: includes/class-wbte-functions.php:989
+msgid "Add"
+msgstr "Adicionar"
+
+#: includes/class-wbte-functions.php:990
+msgid "Add after"
+msgstr "Adicionar depois"
+
+#: includes/class-wbte-functions.php:991
+msgid "Add before"
+msgstr "Adicionar antes"
+
+#: includes/class-wbte-functions.php:992
+msgid "Add product ID after"
+msgstr "Adicione o ID do produto depois"
+
+#: includes/class-wbte-functions.php:993
+msgid "Add product ID before"
+msgstr "Adicione o ID do produto antes"
+
+#: includes/class-wbte-functions.php:994
+msgid "In stock"
+msgstr "Em estoque"
+
+#: includes/class-wbte-functions.php:995
+msgid "Out of stock"
+msgstr "Sem estoque"
+
+#: includes/class-wbte-functions.php:996
+msgid "On backorder"
+msgstr "Em espera"
+
+#: includes/class-wbte-functions.php:997
+msgid "Generate SKU"
+msgstr "Gerar SKU"
+
+#: includes/class-wbte-functions.php:998
+msgid "Make uppercase"
+msgstr "Forçar letras maiúsculas"
+
+#: includes/class-wbte-functions.php:999
+msgid "Make lowercase"
+msgstr "Faça letras minúsculas"
+
+#: includes/class-wbte-functions.php:1000
+msgid "Get previous sale prices"
+msgstr "Obtenha preços de venda anteriores"
+
+#: includes/class-wbte-functions.php:1001
+msgid "Catalog & Search"
+msgstr "Catálogo e Pesquisa"
+
+#: includes/class-wbte-functions.php:1002
+msgid "Catalog"
+msgstr "Catálogo"
+
+#: includes/class-wbte-functions.php:1003
+msgid "Search"
+msgstr "Pesquisar"
+
+#: includes/class-wbte-functions.php:1004
+msgid "Hidden"
+msgstr "Oculto"
+
+#: includes/class-wbte-functions.php:1005
+msgid "Add Weight"
+msgstr "Adicionar peso"
+
+#: includes/class-wbte-functions.php:1006
+msgid "Add Length"
+msgstr "Adicionar comprimento"
+
+#: includes/class-wbte-functions.php:1007
+msgid "Add Width"
+msgstr "Adicionar largura"
+
+#: includes/class-wbte-functions.php:1008
+msgid "Add Height"
+msgstr "Adicionar altura"
+
+#: includes/class-wbte-functions.php:1009
+msgid "Increase Saleprice by %"
+msgstr "Aumentar o preço de venda por %"
+
+#: includes/class-wbte-functions.php:1010
+msgid "Increase Saleprice by fixed amount"
+msgstr "Aumente o preço de venda em um valor fixo"
+
+#: includes/class-wbte-functions.php:1011
+msgid "Decrease Saleprice by fixed amount"
+msgstr "Diminuir o preço de venda por um valor fixo"
+
+#: includes/class-wbte-functions.php:1012
+msgid "Decrease Saleprice by %"
+msgstr "Diminuir preço de venda por %"
+
+#: includes/class-wbte-functions.php:1013
+msgid "Increase by % (from Price)"
+msgstr "Aumento por % (Preço a partir de)"
+
+#: includes/class-wbte-functions.php:1014
+msgid "Increase by fixed amount (from Price)"
+msgstr "Aumento por valor fixo (Preço a partir de)"
+
+#: includes/class-wbte-functions.php:1015
+msgid "Decrease by % (from Price)"
+msgstr "Diminuir por % (Preço a partir de)"
+
+#: includes/class-wbte-functions.php:1016
+msgid "Decrease by fixed amount (from Price)"
+msgstr "Diminuir por valor fixo (Preço a partir de)"
+
+#: includes/class-wbte-functions.php:1017
+msgid "Get previous price"
+msgstr "Obter preço anterior"
+
+#: includes/class-wbte-functions.php:1258
+msgid "None found"
+msgstr "Nenhum encontrado"
+
+#: includes/class-wbte-functions.php:1274
+msgid "ID"
+msgstr "ID"
+
+#: includes/class-wbte-functions.php:1277
+msgid "Categories"
+msgstr "Categorias"
+
+#: includes/class-wbte-functions.php:1279 includes/class-wbte-templates.php:795
+msgid "Price"
+msgstr "Preço"
+
+#: includes/class-wbte-functions.php:1280 includes/class-wbte-templates.php:796
+msgid "Sale price"
+msgstr "Preço da oferta"
+
+#: includes/class-wbte-functions.php:1281 includes/class-wbte-templates.php:797
+msgid "Sale start date"
+msgstr "Data de início da oferta"
+
+#: includes/class-wbte-functions.php:1282 includes/class-wbte-templates.php:798
+msgid "Sale end date"
+msgstr "Data de término da oferta"
+
+#: includes/class-wbte-functions.php:1283 includes/class-wbte-templates.php:799
+msgid "Sale %"
+msgstr "Oferta %"
+
+#: includes/class-wbte-functions.php:1284 includes/class-wbte-templates.php:794
+msgid "Stock"
+msgstr "Estoque"
+
+#: includes/class-wbte-functions.php:1285 includes/class-wbte-templates.php:820
+msgid "Stock value"
+msgstr "Valor do estoque"
+
+#: includes/class-wbte-settings.php:28 includes/class-wbte-settings.php:70 
+#: includes/class-wbte-settings.php:211 includes/class-wbte-templates.php:335 
+#: includes/class-wbte-woo.php:64 includes/class-wbte-woo.php:65 
+#: includes/class-wbte-woo.php:82 includes/class-wbte-woo.php:276
+msgid "Bulk Table Editor"
+msgstr "Editor de tabela em massa"
+
+#: includes/class-wbte-settings.php:46
+msgid "General"
+msgstr "Geral"
+
+#: includes/class-wbte-settings.php:47
+msgid "Integration"
+msgstr "Integração"
+
+#: includes/class-wbte-settings.php:72 includes/class-wbte-settings.php:213
+msgid "The following options are used to configure Bulk Table Editor"
+msgstr ""
+"As seguintes opções são usadas para configurar o Editor de tabela em massa"
+
+#: includes/class-wbte-settings.php:77
+msgid "Products per page"
+msgstr "Produtos por página"
+
+#: includes/class-wbte-settings.php:78
+msgid "Will create a paging function"
+msgstr "Criará uma função de paginação"
+
+#: includes/class-wbte-settings.php:85
+msgid "Default product category"
+msgstr "Categoria de produto padrão"
+
+#: includes/class-wbte-settings.php:86
+msgid "Select product category or all products"
+msgstr "Selecione a categoria do produto ou todos os produtos"
+
+#: includes/class-wbte-settings.php:93
+msgid "Query products by statuses"
+msgstr "Consultar produtos por status"
+
+#: includes/class-wbte-settings.php:94
+msgid ""
+"Set the statuses you want to see, default all statuses is shown in the "
+"extension"
+msgstr ""
+"Defina os status que você deseja ver, o padrão é que todos os status sejam "
+"mostrados na extensão"
+
+#: includes/class-wbte-settings.php:107
+msgid "Order by"
+msgstr "Ordenar por"
+
+#: includes/class-wbte-settings.php:108
+msgid "Set order by, default is Name"
+msgstr "Definir ordem por, o padrão é Nome"
+
+#: includes/class-wbte-settings.php:121
+msgid "Order"
+msgstr "Pedido"
+
+#: includes/class-wbte-settings.php:122
+msgid "Set order, default is ASC"
+msgstr "Definir ordem, o padrão é ASC"
+
+#: includes/class-wbte-settings.php:133
+msgid "Automatic stock management"
+msgstr "Gestão automática de estoque"
+
+#: includes/class-wbte-settings.php:134
+msgid ""
+"Turns off stock management when stock has null/zero values, defaults sets "
+"status to: in stock"
+msgstr ""
+"Desativa o gerenciamento de estoque quando o estoque tem valores nulos/zero, "
+"o padrão define o status como: em estoque"
+
+#: includes/class-wbte-settings.php:141
+msgid "Disable autofocus"
+msgstr "Desativar foco automático"
+
+#: includes/class-wbte-settings.php:142
+msgid "Disables autofocus on input fields and controls in table"
+msgstr "Desativa o foco automático em campos de entrada e controles na tabela"
+
+#: includes/class-wbte-settings.php:149
+msgid "Disable description"
+msgstr "Desativar descrição"
+
+#: includes/class-wbte-settings.php:150
+msgid ""
+"Disables description field, increase of performance if many "
+"products/variations"
+msgstr ""
+"Desativa o campo de descrição, aumenta o desempenho se houver muitos "
+"produtos/variações"
+
+#: includes/class-wbte-settings.php:157
+msgid "Autofocus on date selectors"
+msgstr "Foco automático em seletores de data"
+
+#: includes/class-wbte-settings.php:158
+msgid "If checked the table date selectors in focus when mouse over"
+msgstr "Se marcado os seletores de data da tabela em foco ao passar o mouse"
+
+#: includes/class-wbte-settings.php:165
+msgid "Filter ON SALE by Query (default JS)"
+msgstr "Filtrar A VENDA por consulta (JS padrão)"
+
+#: includes/class-wbte-settings.php:166
+msgid ""
+"If many products this function should not be used (no paging so all products "
+"is loaded)"
+msgstr ""
+"Se houver muitos produtos, esta função não deve ser usada (sem paginação, "
+"então todos os produtos são carregados)"
+
+#: includes/class-wbte-settings.php:173
+msgid "SKU generator length"
+msgstr "Comprimento do gerador SKU"
+
+#: includes/class-wbte-settings.php:174
+msgid ""
+"Default 3 letters. I.e a product variation: Shirt, Blue, large generates to: "
+"shi-blu-lar"
+msgstr ""
+"Padrão 3 letras. Ou seja, uma variação do produto: Camisa, Azul, Grande gera "
+"para: CAM-AZU-GRA"
+
+#: includes/class-wbte-settings.php:181
+msgid "SKU delimiter"
+msgstr "Delimitador de SKU"
+
+#: includes/class-wbte-settings.php:182
+msgid "Default SKU uses - and creates SHI-BLU-LAR when generating"
+msgstr "O SKU padrão usa - e cria CAM-AZU-GRA ao gerar"
+
+#: includes/class-wbte-settings.php:187
+msgid "Use default ( - )"
+msgstr "Use o padrão ( - )"
+
+#: includes/class-wbte-settings.php:188
+msgid "Use dot ( . )"
+msgstr "Use ponto (.)"
+
+#: includes/class-wbte-settings.php:193
+msgid "Hide edit options"
+msgstr "Ocultar opções de edição"
+
+#: includes/class-wbte-settings.php:194
+msgid "Hides: edit product, other values and settings button"
+msgstr "Oculta: editar produto, outros valores e botão de configurações"
+
+#: includes/class-wbte-settings.php:218
+msgid "Custom price (slug)"
+msgstr "Preço personalizado (slug)"
+
+#: includes/class-wbte-settings.php:219
+msgid ""
+"Insert custom slug i.e _wholesaler_price. Recommended to use only a type of "
+"price and not i.e a percent value."
+msgstr ""
+"Insira um slug personalizado, ou seja, _atacadista_preço. Recomendado usar "
+"apenas um tipo de preço e não um valor percentual."
+
+#: includes/class-wbte-settings.php:227
+msgid "Custom price name"
+msgstr "Nome do preço personalizado"
+
+#: includes/class-wbte-settings.php:228
+msgid "Your custom column name in the table, keep it short"
+msgstr "O nome da sua coluna personalizada na tabela, seja curto"
+
+#: includes/class-wbte-settings.php:235
+msgid "Integrations (get slug)"
+msgstr "Integrações (obter slug)"
+
+#: includes/class-wbte-settings.php:236
+msgid "Select integration, will only work if plugin is installed"
+msgstr "Selecionar integração, só funcionará se o plugin estiver instalado"
+
+#: includes/class-wbte-settings.php:242
+msgid "Select integration"
+msgstr "Selecionar integração"
+
+#: includes/class-wbte-settings.php:243
+msgid "Name your price (suggested price field)"
+msgstr "Nomeie seu preço (campo de preço sugerido)"
+
+#: includes/class-wbte-settings.php:244
+msgid "Cost & Reports (cost of goods field)"
+msgstr "Custos e relatórios (campo custo de mercadorias)"
+
+#: includes/class-wbte-settings.php:245
+msgid "Cost of goods (cost of goods field)"
+msgstr "Custo das mercadorias (campo custo das mercadorias)"
+
+#: includes/class-wbte-settings.php:246
+msgid "Wholesale for WooCommerce (wholesale field)"
+msgstr "Atacado para WooCommerce (campo de atacado)"
+
+#: includes/class-wbte-settings.php:251
+msgid "Custom price - calculate like sales price"
+msgstr "Preço personalizado - calcule o mesmo preço de venda"
+
+#: includes/class-wbte-settings.php:252
+msgid ""
+"If checked it uses price for calculations i.e: normal price - % = custom "
+"price. Uncheked it is independent i.e: custom price - % = new custom price"
+msgstr ""
+"Se marcado, usa o preço para cálculos i.n: preço normal -% = preço "
+"personalizado. Desmarcado, é independente, ou seja: preço personalizado -% = "
+"novo preço personalizado"
+
+#: includes/class-wbte-settings.php:259
+msgid "Show extra column"
+msgstr "Mostrar coluna extra"
+
+#: includes/class-wbte-settings.php:260
+msgid "Must be checked to show the custom price or SKU on main page"
+msgstr ""
+"Deve ser verificado para mostrar o preço personalizado ou SKU na página "
+"principal"
+
+#: includes/class-wbte-settings.php:267
+msgid "Show SKU in main page"
+msgstr "Mostrar SKU na página principal"
+
+#: includes/class-wbte-settings.php:268
+msgid ""
+"If checked SKU will show as custom column (replaces the custom integration "
+"price)"
+msgstr ""
+"Se marcado, o SKU será exibido como coluna personalizada (substitui o preço "
+"de integração personalizado)"
+
+#: includes/class-wbte-settings.php:275
+msgid "Enable Vendors"
+msgstr "Habilitar fornecedores"
+
+#: includes/class-wbte-settings.php:276
+msgid ""
+"If checked a column for vendor and bulk functions is enabled for setting "
+"vendors on products"
+msgstr ""
+"Se marcada, uma coluna para fornecedor e funções em massa serão habilitadas "
+"para definir fornecedores em produtos"
+
+#: includes/class-wbte-templates.php:93 includes/class-wbte-woo.php:210
+msgid "Products"
+msgstr "Produtos"
+
+#: includes/class-wbte-templates.php:94 includes/class-wbte-woo.php:211
+msgid "Variations"
+msgstr "Variações"
+
+#. translators: %s: url to vendor and logo
+#: includes/class-wbte-templates.php:280
+#, php-format
+msgid "- developed by %1$s%2$s%3$s"
+msgstr "- desenvolvido por %1$s%2$s%3$s"
+
+#: includes/class-wbte-templates.php:284 includes/class-wbte-templates.php:765
+msgid "Undo changes"
+msgstr "Desfazer mudanças"
+
+#: includes/class-wbte-templates.php:350 includes/class-wbte-templates.php:361
+msgid "Editor home"
+msgstr "Página inicial do editor"
+
+#: includes/class-wbte-templates.php:354 includes/class-wbte-templates.php:365
+msgid "Other values"
+msgstr "Outros valores"
+
+#: includes/class-wbte-templates.php:389
+msgid "search"
+msgstr "pesquisar"
+
+#: includes/class-wbte-templates.php:392
+msgid "Search in"
+msgstr "Pesquisar em"
+
+#: includes/class-wbte-templates.php:393
+msgid "Text"
+msgstr "Texto"
+
+#: includes/class-wbte-templates.php:395
+msgid "Rows"
+msgstr "Linhas"
+
+#: includes/class-wbte-templates.php:678
+msgid "No products found"
+msgstr "Nenhum produto encontrado"
+
+#: includes/class-wbte-templates.php:705
+msgid "Move checked items to trash?"
+msgstr "Mover os itens marcados para a lixeira?"
+
+#: includes/class-wbte-templates.php:762
+msgid "Delete rows"
+msgstr "Excluir linhas"
+
+#: includes/class-wbte-templates.php:763
+msgid "Remove sales"
+msgstr "Remover vendas"
+
+#: includes/class-wbte-templates.php:816
+msgid "Vendor"
+msgstr "Fornecedor"
+
+#: includes/class-wbte-templates.php:859
+msgid "This plugin currently does not support mobile views. "
+msgstr "Este plugin atualmente não oferece suporte a visualizações móveis."
+
+#: includes/class-wbte-templates.php:860
+msgid "Please use screen size larger than 700px"
+msgstr "Use um tamanho de tela maior que 700px"
+
+#. translators: %s: url for documentation
+#: includes/class-wbte-woo.php:136
+#, php-format
+msgid ""
+"Read the <a href=\"%1$s\" target=\"_blank\"> extension documentation </a> "
+"for more information."
+msgstr ""
+"Leia a <a href=\"%1$s\" target=\"_blank\"> documentação da extensão </a> "
+"para obter mais informações."
+
+#: includes/class-wbte-woo.php:142
+msgid "Dismiss"
+msgstr "Liberar"
+
+#: includes/class-wbte-woo.php:144
+msgid ""
+"Thank you for installing Bulk Table Editor for WooCommerce. You can now "
+"start to bulk update products. "
+msgstr ""
+"Obrigado por instalar o Editor de tabelas em massa para WooCommerce. Agora "
+"você pode começar a atualizar produtos em massa."
+
+#: includes/class-wbte-woo.php:148
+msgid "Start bulk editing products"
+msgstr "Comece a editar produtos em massa"
+
+#: includes/class-wbte-woo.php:149
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/class-wbte-woo.php:206
+msgid "Product image"
+msgstr "Imagem do produto"
+
+#: includes/class-wbte-woo.php:207
+msgid "Select image"
+msgstr "Selecionar imagem"
+
+#: includes/class-wbte-woo.php:296
+msgid "Cost & Reports"
+msgstr "Custos e relatórios"
+
+#: includes/class-wbte-woo.php:301
+msgid "Calculate Your Price"
+msgstr "Calcule seu preço"
+
+#: includes/class-wbte-woo.php:310
+msgid "Bulk Category Editor"
+msgstr "Editor de categorias em massa"
+
+#. Plugin Name of the plugin/theme
+msgid "Bulk Table Editor for WooCommerce"
+msgstr "Editor de tabelas em massa para WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid "https://woocommerce.com/products/bulk-table-editor-for-woocommerce/"
+msgstr "https://woocommerce.com/products/bulk-table-editor-for-woocommerce/"
+
+#. Description of the plugin/theme
+msgid ""
+"Enables bulk updating of product prices, stock, sale values, sku, tags and "
+"other."
+msgstr ""
+"Permite atualização em massa de preços de produtos, estoque, valores de "
+"venda, sku, tags e outros."
+
+#. Author of the plugin/theme
+msgid "Consortia"
+msgstr "Consórcios"
+
+#. Author URI of the plugin/theme
+msgid "http://www.consortia.no/en/"
+msgstr "http://www.consortia.no/en/"
